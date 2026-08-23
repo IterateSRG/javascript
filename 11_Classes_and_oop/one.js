@@ -30,7 +30,7 @@ function User(username,loginCount,isLoggedIn){
         console.log(`Welcome ${this.username}`)
     }
 
-    return this
+    // return this - return karne ki jarurat nahi implicitly ruturn hota hai
 }
 
 const userOne = new User("shivam",12,true)
@@ -42,7 +42,6 @@ console.log(userTwo)
 userTwo.greetings()
 
 console.log(userOne.constructor)
-
 
 
 // step  - 1 : new object create hota hai
